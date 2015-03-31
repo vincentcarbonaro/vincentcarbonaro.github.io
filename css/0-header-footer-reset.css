@@ -76,9 +76,15 @@ nav {
 
 nav h1 {
   float: left;
-  padding: 10px 0;
+  padding: 5px 10px;
   font-size: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+nav h1:hover {
+  background: #202020;
+  color: white;
+  border-radius: 5px;
 }
 
 nav ul {
@@ -133,10 +139,16 @@ body {
 
 footer div {
   float: left;
-  padding: 10px 15px 10px 0;
+  padding: 10px 15px 10px 10px;
   margin-top: 15px;
   font-size: 15px;
   letter-spacing: 1px;
+}
+
+footer div:hover {
+  background: white;
+  color: #202020;
+  border-radius: 5px;
 }
 
 header .active {
