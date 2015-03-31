@@ -20,3 +20,26 @@
   padding-left: 50px;
   width: 500px;
 }
+
+.skills {
+  width: 500px;
+  margin: auto;
+  display: block;
+  padding-bottom: 40px;
+}
+
+.skills ul {
+  margin: auto;
+  width: 400px;
+}
+
+.skills li {
+  float: left;
+}
+
+.skills label {
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  letter-spacing: 15px;
+}

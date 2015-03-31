@@ -1,5 +1,15 @@
 #contact .bottom {
   padding: 20px;
-  width: 300px;
+  width: 320px;
   margin: auto;
+}
+
+#contact .bottom a {
+  padding: 3px 6px;
+}
+
+#contact .bottom a:hover {
+  background: #202020;
+  color: white;
+  border-radius: 5px;
 }
