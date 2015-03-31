@@ -8,12 +8,18 @@
 #portfolio .bottom ul > li {
   height: 200px;
   width: 200px;
-  margin: 20px;
+  margin: 40px 20px;
   float: left;
   border: 1px solid #202020;
   text-align: center;
 }
 
-#portfolio .bottom ul > li:hover {
-  
+#portfolio .bottom ul > li a {
+  padding: 5px 10px;
+}
+
+#portfolio .bottom ul > li a:hover {
+  background: red;
+  border-radius: 5px;
+  color: white;
 }
