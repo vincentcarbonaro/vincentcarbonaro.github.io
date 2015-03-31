@@ -7,9 +7,11 @@
   float: left;
   display: block;
   width: 150px;
-  height: 200px;
-  border: 1px solid green;
   display: block;
+}
+
+.pic img {
+  width: 150px;
 }
 
 .bio {
