@@ -1,0 +1,19 @@
+#portfolio .bottom {
+  width: 726px;
+}
+
+#portfolio .bottom {
+}
+
+#portfolio .bottom ul > li {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  float: left;
+  border: 1px solid #202020;
+  text-align: center;
+}
+
+#portfolio .bottom ul > li:hover {
+  
+}

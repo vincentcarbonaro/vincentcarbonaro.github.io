@@ -1,0 +1,20 @@
+#home .bottom{
+  width: 750px;
+}
+
+.pic {
+  margin: 20px 0;
+  float: left;
+  display: block;
+  width: 150px;
+  height: 200px;
+  border: 1px solid green;
+  display: block;
+}
+
+.bio {
+  float: left;
+  padding: 20px;
+  padding-left: 50px;
+  width: 500px;
+}
