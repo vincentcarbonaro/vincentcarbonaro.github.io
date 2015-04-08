@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Sweet;
+  src: url("SweetheartScript-limited.ttf")
+}
+
 #portfolio .bottom {
   width: 876px;
 }
@@ -32,6 +37,12 @@
 
 .vinstagram {
   background: #517fa4;
+}
+
+.vinstagram label a {
+  font-family: Sweet;
+  color: white;
+  font-size: 40px;
 }
 
 .snake {
