@@ -12,10 +12,9 @@
 
 #portfolio .bottom ul > li {
   height: 250px;
-  width: 250px;
+  width: 249px;
   margin: 40px 20px;
   float: left;
-  border: 1px solid #202020;
   border-radius: 10px;
   text-align: center;
 }
@@ -28,18 +27,18 @@
   font-size: 24px;
 }
 
-.chess img {
+#insta-img {
+  width: 250px;
   position: absolute;
-  z-index: -500;
-  right: 0;
-  border-radius: 5px;
+  left: 0;
+  z-index: -50;
 }
 
 .vinstagram {
   background: #517fa4;
 }
 
-.vinstagram label a {
+.vinstagram a {
   font-family: Sweet;
   color: white;
   font-size: 40px;
@@ -47,10 +46,12 @@
 
 .snake {
   background: green;
+  border: 2px solid #202020;
 }
 
-.chess {
+.active-record {
   background: red;
+  border: 2px solid #202020;
 }
 
 .vinstagram a:hover {
@@ -65,7 +66,7 @@
   color: green;
 }
 
-.chess a:hover {
+.active-record a:hover {
   background: white;
   border-radius: 5px;
   color: red;
