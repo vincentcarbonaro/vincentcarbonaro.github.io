@@ -1,3 +1,3 @@
 This is my personal website.
 
-[Live](http://VincentCarbonaro.us)
+[VincentCarbonaro.US](http://VincentCarbonaro.us)
