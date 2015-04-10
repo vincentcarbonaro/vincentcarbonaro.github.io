@@ -7,9 +7,6 @@
   width: 876px;
 }
 
-#portfolio .bottom {
-}
-
 #portfolio .bottom ul > li {
   height: 250px;
   width: 249px;
@@ -47,11 +44,17 @@
 .snake {
   background: green;
   border: 2px solid #202020;
+  color: white;
+  font-size: 35px;
+  line-height: 30px;
 }
 
 .active-record {
   background: red;
   border: 2px solid #202020;
+  color: white;
+  font-size: 26px;
+  text-align: center;
 }
 
 .vinstagram a:hover {
