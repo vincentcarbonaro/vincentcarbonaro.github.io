@@ -4,7 +4,8 @@
 }
 
 #portfolio .bottom {
-  width: 876px;
+  max-width: 876px;
+  font-size: 24px;
 }
 
 #portfolio .bottom ul > li {
@@ -18,10 +19,6 @@
 
 #portfolio .bottom ul > li a {
   padding: 5px 10px;
-}
-
-#portfolio .bottom {
-  font-size: 24px;
 }
 
 #insta-img {
