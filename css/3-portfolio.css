@@ -4,32 +4,77 @@
 }
 
 #portfolio .bottom {
-  max-width: 876px;
+  margin: auto;
   font-size: 24px;
 }
 
-#portfolio .bottom ul > li {
+#portfolio .bottom h2 {
+  font-size: 25px;
+  font-weight: normal;
+  width: 225px;
+  margin: auto;
+  padding: 2px 25px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#portfolio .bottom h2:hover {
+  background: black;
+  color: white;
+}
+
+#portfolio .bottom ul {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+#portfolio .bottom ul li {
   height: 250px;
   width: 249px;
-  margin: 40px 20px;
+  margin: 20px 20px 20px 20px;
   float: left;
   border-radius: 10px;
   text-align: center;
 }
 
+/*** When the screen is small ***/
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  #portfolio .bottom {
+    max-width: 293px;
+  }
+}
+
+/*** Full Size ***/
+@media screen and (min-width: 600px) {
+  #portfolio .bottom {
+    max-width: 590px;
+  }
+}
+
+/****************************/
+
 #portfolio .bottom ul > li a {
   padding: 5px 10px;
 }
 
-#insta-img {
+#portfolio ul li {
+  position: relative;
+}
+
+#portfolio img {
   width: 250px;
   position: absolute;
   left: 0;
-  z-index: -50;
+  border-radius: 5px;
+  z-index: -5;
 }
 
-.vinstagram {
-  background: #517fa4;
+/****************************/
+
+.vinstagram a:hover {
+  background: white;
+  border-radius: 5px;
+  color: #517fa4;
 }
 
 .vinstagram a {
@@ -38,26 +83,13 @@
   font-size: 40px;
 }
 
+/****************************/
+
 .snake {
-  background: green;
-  border: 2px solid #202020;
+  border: 4px solid #202020;
   color: white;
   font-size: 35px;
   line-height: 30px;
-}
-
-.active-record {
-  background: red;
-  border: 2px solid #202020;
-  color: white;
-  font-size: 26px;
-  text-align: center;
-}
-
-.vinstagram a:hover {
-  background: white;
-  border-radius: 5px;
-  color: #517fa4;
 }
 
 .snake a:hover {
@@ -66,14 +98,29 @@
   color: green;
 }
 
-.active-record a:hover {
+/****************************/
+
+.ar {
+  border: 2px solid #202020;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.ar img {
+  background: red;
+}
+
+.ar a:hover {
   background: white;
   border-radius: 5px;
   color: red;
 }
 
+/****************************/
+
 .cityspade {
-  border: 4px solid #202020;
+  border: 2px solid #202020;
   color: white;
   font-size: 35px;
   line-height: 30px;
@@ -87,4 +134,5 @@
 .cityspade a:hover {
   color: white;
   background: green;
+  border-radius: 5px;
 }

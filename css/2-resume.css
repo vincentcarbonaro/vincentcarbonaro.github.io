@@ -1,0 +1,12 @@
+#resume .bottom {
+  max-width: 830px;
+  margin: auto;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#resume .bottom img {
+  border: 1px solid #202020;
+  border-radius: 10px;
+  max-width: 95%;
+}

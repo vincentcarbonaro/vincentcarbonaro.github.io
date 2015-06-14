@@ -1,45 +1,99 @@
-#home .bottom{
-  width: 750px;
+/*** When the screen is small ***/
+@media screen and (min-width: 0px) and (max-width: 749px) {
+
+  #home .bottom {
+    margin: auto;
+    max-width: 750px;
+  }
+
+  #home .bottom .pic {
+    width: 175px;
+    margin: auto;
+  }
+
+  #home .bottom .pic img {
+    padding-top: 20px;
+    padding-left: 20px;
+    max-width: 175px;
+  }
+
+  #home .bottom .bio {
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .skills {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .skills ul {
+    width: 200px;
+    margin: auto;
+  }
+
+  .skills ul li {
+    float: left;
+  }
+
+  .skills h1 {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 15px;
+  }
+
+}
+/*** When screen less than 400px for skill img's ***/
+@media screen and (min-width: 430px) and (max-width: 749px) {
+  .skills ul {
+    width: 400px;
+    margin: auto;
+  }
 }
 
-.pic {
-  margin: 20px 0;
-  float: left;
-  display: block;
-  width: 175px;
-  display: block;
-}
+/*** Full Size Screen ***/
+@media screen and (min-width: 750px) {
 
-.pic img {
-  width: 175px;
-}
+  #home .bottom {
+    margin: auto;
+    max-width: 750px;
+  }
 
-.bio {
-  float: left;
-  padding: 20px;
-  padding-left: 50px;
-  width: 500px;
-}
+  #home .bottom .pic img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 175px;
+    float: left;
+  }
 
-.skills {
-  width: 500px;
-  margin: auto;
-  display: block;
-  padding-bottom: 40px;
-}
+  #home .bottom .bio {
+    float: left;
+    max-width: 500px;
+    padding: 20px 20px 5px 20px;
+  }
 
-.skills ul {
-  margin: auto;
-  width: 400px;
-}
+  #home .bottom .skills {
+    margin: auto;
+    padding-bottom: 30px;
+  }
 
-.skills li {
-  float: left;
-}
+  #home .bottom .skills ul {
+    max-width: 400px;
+    margin: auto;
 
-.skills label {
-  display: block;
-  text-align: center;
-  font-size: 90px;
-  letter-spacing: 15px;
+  }
+
+  #home .bottom .skills ul li {
+    float: left;
+  }
+
+  #home .bottom .skills h1 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 15px;
+  }
+
 }

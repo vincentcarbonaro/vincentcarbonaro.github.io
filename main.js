@@ -37,23 +37,22 @@ $(function () {
 
   $('.vinstagram').tooltip({
     content: 'An Instagram inspired picture sharing platform',
-    position: { my: "left top+17", at: "left bottom", collision: "flipfit" }
+    position: { my: "middle", at: "bottom"}
   });
 
   $('.snake').tooltip({
     content: 'A remake of the classic arcade game Snake',
-    position: { my: "left top+17", at: "left bottom", collision: "flipfit" }
+    position: { my: "middle", at: "bottom"}
   });
 
-  $('.active-record').tooltip({
+  $('.ar').tooltip({
     content: "Meta-Programming Ruby on Rails' Active Record",
-    position: { my: "left top+17", at: "left bottom", collision: "flipfit" }
+    position: { my: "middle", at: "bottom"}
   });
 
   $('.cityspade').tooltip({
-    content: "A Programming challenged in which I scraped data from a real estate website and plotted the locations on a Google Map"
+    content: "A Programming challenged in which I scraped data from a real estate website and plotted the locations on a Google Map",
+    position: { my: "middle", at: " bottom"}
   });
-
-
 
 })
