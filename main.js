@@ -36,17 +36,17 @@ $(function () {
   });
 
   $('.vinstagram').tooltip({
-    content: 'An Instagram inspired picture sharing platform',
+    content: 'A class project - An Instagram inspired picture sharing platform',
     position: { my: "middle", at: "bottom"}
   });
 
   $('.snake').tooltip({
-    content: 'A remake of the classic arcade game Snake',
+    content: 'A class project - A remake of the classic arcade game Snake',
     position: { my: "middle", at: "bottom"}
   });
 
   $('.ar').tooltip({
-    content: "Meta-Programming Ruby on Rails' Active Record",
+    content: "A class project - Meta-Programming Ruby on Rails' Active Record",
     position: { my: "middle", at: "bottom"}
   });
 
